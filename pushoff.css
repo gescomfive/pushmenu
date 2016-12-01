@@ -1,0 +1,134 @@
+
+
+@media (max-width: 1025px)
+{
+    .navbar-collapse
+    {
+        transform: scale(1.05) translate(-40vmin, 0);
+    }
+    .navbar-toggle
+    {
+        float: left;
+        margin-left: 10px;
+    }
+    .navbar-collapse
+    {
+        background: transparent;
+        visibility: visible;
+        border-width: 0;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-collapse
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 30vmin;
+        height: 100% !important;
+        max-height: 10000px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        z-index: -1;
+    }
+    body.open .navbar-collapse
+    {
+        z-index: 1000;
+    }
+    .navbar-collapse *
+    {
+        width: 100%;
+        opacity: 0;
+        transition: opacity .2s 500ms ease;
+        margin-top: 50px;
+    }
+    body.open .navbar-collapse *
+    {
+        transition: opacity .5s 500ms ease;
+        opacity: 1;
+    }
+    .navbar-collapse li > a
+    {
+        font-size: 5vmin;
+        line-height: 7vmin;
+        text-align: center;
+        transition: all .2s ease;
+    }
+    body
+    {
+        overflow-x: hidden;
+    }
+    body #site-wrapper
+    {
+        width: 100vw;
+        height: 100vh;
+    }
+    body.open
+    {
+        overflow: hidden;
+    }
+    body
+    {
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        transition: background .2s 2s ease;
+    }
+    body #site-wrapper
+    {
+        background-color: white;
+        transition: transform .8s .2s ease, opacity .2s 0s ease;
+    }
+    body.open
+    {
+        transition: background .2s 0s ease;
+        background: #333;
+    }
+    body.open #site-wrapper
+    {
+        transition: transform .8s 0s ease, opacity .2s 1s ease;
+        transform: translate(50vmin, 0);
+        box-shadow: 0 0px 25px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-default .navbar-nav > li.active > a,
+  .navbar-default .navbar-nav > li.active > a:hover
+    {
+        background-color: transparent;
+        color: white;
+    }
+    .navbar-default .navbar-nav > li > a
+    {
+        background-color: transparent;
+        color: #666666;
+    }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+    {
+        background-color: transparent;
+        color: gray;
+    }
+}
+
+/*# sourceMappingURL=bootstrap-push-menu.css.map */
+
+.navbar
+{
+    width: 60px;
+}
+
+.imagerow
+{
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+navlink
+{
+    margin-top: 20px;
+}
+
+navlink
+{
+}
+

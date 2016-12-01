@@ -11,9 +11,8 @@
         <link href="bootstrap.css" rel="stylesheet">
         <!-- Custom styles for this template -->
         <link href="style.css" rel="stylesheet">
-
-
         <link href="pushoff.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
     </head>
     <body>
         <body>
@@ -47,35 +46,35 @@
                         </div>
                     </div>
                 </nav>
- <div class="row imagerow">
-                <div class="col-md-5"> 
-                    <a href="#" class="thumbnail"> 
-                        <img src="img1.jpg" alt=""> 
-                    </a>                     
+                <div class="row imagerow">
+                    <div class="col-md-5"> 
+                        <a href="#" class="thumbnail"> 
+                            <img src="img1.jpg" alt="" data-animation-1 data-animation-trigger-1="load" data-animation-type-1="bounceInDown"> 
+                        </a>                         
+                    </div>
+                    <div class="col-md-5"> 
+                        <a href="#" class="thumbnail"> 
+                            <img src="img2.jpg" alt="" data-animation-1 data-animation-trigger-1="load" data-animation-type-1="bounceInUp"> 
+                        </a>                         
+                    </div>
                 </div>
-                <div class="col-md-5"> 
-                    <a href="#" class="thumbnail"> 
-                        <img src="img2.jpg" alt=""> 
-                    </a>                     
+                <div class="row imagerow">
+                    <div class="col-md-5"> 
+                        <a href="#" class="thumbnail"> 
+                            <img src="img3.jpg" alt="" data-animation-3 data-animation-trigger-3="load" data-animation-type-3="bounceInRight"> 
+                        </a>                         
+                    </div>
+                    <div class="col-md-5"> 
+                        <a href="#" class="thumbnail"> 
+                            <img src="img4.jpg" alt="" data-animation-1 data-animation-trigger-1="load" data-animation-type-1="fadeInRightBig"> 
+                        </a>                         
+                    </div>
                 </div>
-            </div>
-            <div class="row imagerow">
-                <div class="col-md-5"> 
-                    <a href="#" class="thumbnail"> 
-                        <img src="img3.jpg" alt=""> 
-                    </a>                     
-                </div>
-                <div class="col-md-5"> 
-                    <a href="#" class="thumbnail"> 
-                        <img src="img4.jpg" alt=""> 
-                    </a>                     
-                </div>
-            </div>
                 <!-- Website goes in here -->
             </div>
         </body>
         <!-- Added jQuery to demonstrate example -->
-        <script src="jquery_2.2.4.js" ></script>
+        <script src="jquery_2.2.4.js"></script>
         <script>
     $(document).ready(function() {
       $(document).on('click', '.navbar-toggle', function(event) {
@@ -89,6 +88,7 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="jquery_2.2.4.js"></script>
         <script src="bootstrap.min.js"></script>
-
+        <script type="text/javascript" src="https://cdn.rawgit.com/MhdAljuboori/6ea3a3fa48248e3a132a/raw/animator.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
     </body>
 </html>
